@@ -113,10 +113,10 @@ int main() {
                 cout << "Exiting filter menu.\n";
                 continue;
 
-            // case 1:
-            //     grayscale(image);
-            //     cout << "Grayscale filter applied successfully.\n";
-            //     break;
+            case 1:
+                grayscale(image);
+                cout << "Grayscale filter applied successfully.\n";
+                break;
 
             case 2:
                 blackAndWhite(image);
@@ -133,10 +133,10 @@ int main() {
             //     cout << "Frame added successfully.\n";
             //     break;
 
-            // case 5:
-            //     flipImage(image);
-            //     cout << "Flip filter applied successfully.\n";
-            //     break;
+            case 5:
+                flipImage(image);
+                cout << "Flip filter applied successfully.\n";
+                break;
 
             case 6: {
                 int angle;
@@ -241,10 +241,10 @@ int main() {
             //     cout << "Skew filter applied successfully.\n";
             //     break;
 
-            // case 19:
-            //     oilPainting(image);
-            //     cout << "Oil Painting filter applied successfully.\n";
-            //     break;
+            case 19:
+                oilPainting(image);
+                cout << "Oil Painting filter applied successfully.\n";
+                break;
 
             default:
                 cout << "Invalid filter choice.\n";
